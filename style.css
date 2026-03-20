@@ -1,0 +1,95 @@
+/* || RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* || VARIABLES */
+:root {
+    /* BORDERS */
+    --BORDER: 1px solid var(--COL);
+
+    /* COLORS */
+    --COL-SEC: #a5a5a5;
+    --COL: #1e1e1e;
+}
+
+/* || GENERAL STYLES */
+body {
+    border-radius: 1.5rem;
+    border: var(--BORDER);
+    color: var(--COL);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    margin: .5rem;
+    padding: 2rem;
+    text-decoration: none;
+}
+
+h1 {
+    font-weight: inherit;
+    margin: 1rem;
+}
+
+header {
+    text-align: center;
+}
+
+p {
+    color: var(--COL-SEC);
+    padding-bottom: 1rem;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+    padding: 1rem;
+}
+
+section {
+    padding: 1rem;
+    position: relative;
+}
+
+section:first-child {
+    color: var(--COL-SEC);
+    text-align: right;
+}
+
+section:last-child {
+    border-left: var(--BORDER);
+}
+
+section:first-child ul {
+    list-style-type: none;
+}
+
+section:last-child ul {
+    list-style-type: none;
+}
+
+li {
+    margin: 2rem auto;
+}
+
+section:last-child li::before {
+    background-color: var(--COL);
+    border-radius: 50%;
+    content: "";
+    height: 12px;
+    left: -7px;
+    position: absolute;
+    width: 12px;
+  }
+
+button {
+    background-color: var(--COL);
+    border-radius: .5rem;
+    border: none;
+    color: #fff;
+    display: block;
+    margin: 0 auto;
+    padding: .75rem 2rem;
+}
