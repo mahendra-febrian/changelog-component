@@ -1,7 +1,9 @@
 # changelog-component
 A changelog component for a website using HTML and CSS.
 
-## Instruction
-Open index.html in any browser to view the webpages.
+![changelog-component](snapshot.png)
 
-[Project Idea](https://roadmap.sh/projects/changelog-component)
+## Instruction
+Open `index.html` in any browser to view the webpages.
+
+[Project Idea Source](https://roadmap.sh/projects/changelog-component)
